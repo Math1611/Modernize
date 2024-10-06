@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 10%;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    font-family: Open Sans;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 150px;
+    background-color: #181616;
+}
+.logo img{
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.number{
+    color: #fff;
+    margin: 40px;
+    font-size: 10px;
+}
+
+/*nav*/
+
+nav{
+    background: linear-gradient(to bottom right, #7b7b7b, #1e1e1e);
+    display: flex;
+    height: 50px;
+    width: 80%;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+nav p{
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #1f1e1e;
+    font-weight: 200;
+    font-size: 15px;
+}
+.palo p{
+    display: flex;
+    margin-left: 500px;
+    color: #575656;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/*MAIN*/
+article{
+    width: 80%;
+    height: 345px;
+}
+article img{
+    width: 100% ;
+
+}
+.description{
+    background-color: #1e1e1e;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin-top: 80px;
+
+}
+.ridiculus{
+    display: flex;
+    padding: 20px;
+}
+.Ipsum{
+    display: flex;
+    padding: 20px;
+}
+.Tellus{
+    display: flex;
+    padding: 20px;
+}
+.Sem{
+    display: flex;
+    padding: 20px;
+}
+
+.part1 img{
+    height: 50px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.part2 h2{
+    padding-top: 10px;
+    color: rgb(210, 136, 0);
+    font-size: 20px;
+}
+.part2 p{
+    color: #fff;
+}
+.anuncio{
+    background-color: #181616;
+    display: flex;
+    width: 80%;
+    height: 150px;
+}
+
+.part1-anuncio{
+    padding: 30px;
+}
+.part1-anuncio h2{
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.part1-anuncio p{
+    color: #575656;
+}
+.part2-anuncio{
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.part2-anuncio button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:  transform 0.2s ease;
+    
+}
+.part2-anuncio button:hover{
+    opacity: 0.8;
+    transform: translateY(-5px);
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #1e1e1e;
+    width: 80%;
+    height: 530px;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.portfolio h2{
+    color: #fff;
+    font-weight: 600;
+}
+.portfolio a{
+    color:rgb(255, 166, 0);
+    text-decoration: none;
+    font-style: italic;
+}
+.ports{
+    display: flex;
+    justify-content: space-around;
+}
+.port{
+    width: 255px;
+    height: 400px;
+}
+.port-1{
+    width: 220px;
+    margin: 20px;
+    border: #414141 solid 10px;
+    border-radius: 5px;
+}
+.port-1 img{
+    width: 100%;
+    
+}
+.port-2{
+    padding-left: 10px;
+}
+.port-2 h2{
+    color: rgb(255, 166, 0);
+}
+.port-2 p{
+    color: #fff;
+    font-weight: 600;
+}
+.extra a{
+    color: #767676;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    font-weight: 600;
+}
